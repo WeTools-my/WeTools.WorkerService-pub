@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WeTools.WorkerService</id>
+    <version>1.0.1</version>
+    <authors>clrsdream</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>wetools.png</icon>
+    <projectUrl>https://github.com/WeTools-my/WeTools.WorkerService.git</projectUrl>
+    <description>具体参考github库说明。</description>
+    <repository url="https://github.com/WeTools-my/WeTools.WorkerService.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.DataAnnotations" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\bin\Debug\netstandard2.0\WeTools.WorkerService.dll" target="lib\netstandard2.0\WeTools.WorkerService.dll" />
+    <file src="E:\Git\Github\WeTools.WorkerService\wetools.png" target="wetools.png" />
+  </files>
+</package>

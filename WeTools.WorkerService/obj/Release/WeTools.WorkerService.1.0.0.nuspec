@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WeTools.WorkerService</id>
+    <version>1.0.0</version>
+    <authors>clrsdream</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>工具箱.png</icon>
+    <projectUrl>https://github.com/WeTools-my/WeTools.WorkerService.git</projectUrl>
+    <description>Worker Service 扩展库，提供根据配置文件对每一个Worker的停止、启动和自动解析注册Worker。
+1.在配置文件添加节点
+"Service": {
+    "Dir": "/", //worker 所在文件夹, 根目录为 / ;
+    "Workers": [
+      {
+        "Name": "Worker2",
+        "WorkerName": "Worker2",//具体的实现类名
+        "Enable": true //此节点控制worker 的运行
+      },
+      {
+        "Name": "Worker",
+        "WorkerName": "Worker",
+        "Enable": true
+      }
+
+    ]
+  }
+2. 新建worker类，并继承WeToolBackgroundService。
+3.在Program类 ConfigureServices 里注册服务
+ services.AddServiceOptions(hostContext);
+ services.UseWorkers();
+现在即可启动程序。</description>
+    <repository url="https://github.com/WeTools-my/WeTools.WorkerService.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.DataAnnotations" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\bin\Release\netstandard2.0\WeTools.WorkerService.dll" target="lib\netstandard2.0\WeTools.WorkerService.dll" />
+    <file src="F:\Downloads\工具箱.png" target="工具箱.png" />
+  </files>
+</package>

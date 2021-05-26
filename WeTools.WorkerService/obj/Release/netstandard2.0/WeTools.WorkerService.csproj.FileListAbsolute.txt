@@ -1,0 +1,9 @@
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\bin\Release\netstandard2.0\WeTools.WorkerService.deps.json
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\bin\Release\netstandard2.0\WeTools.WorkerService.dll
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\bin\Release\netstandard2.0\WeTools.WorkerService.pdb
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\obj\Release\netstandard2.0\WeTools.WorkerService.csprojAssemblyReference.cache
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\obj\Release\netstandard2.0\WeTools.WorkerService.AssemblyInfoInputs.cache
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\obj\Release\netstandard2.0\WeTools.WorkerService.AssemblyInfo.cs
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\obj\Release\netstandard2.0\WeTools.WorkerService.csproj.CoreCompileInputs.cache
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\obj\Release\netstandard2.0\WeTools.WorkerService.dll
+E:\Git\Github\WeTools.WorkerService\WeTools.WorkerService\obj\Release\netstandard2.0\WeTools.WorkerService.pdb
