@@ -26,7 +26,7 @@ namespace WorkerServiceDemo
             {
                 Console.WriteLine("Worker执行了");
 
-                await Task.Delay(5000, stoppingToken);
+                await Task.Delay(WorkerConfig.Delay, stoppingToken);
 
             }
             Console.WriteLine("退出执行了");

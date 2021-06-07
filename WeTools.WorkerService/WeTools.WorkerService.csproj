@@ -3,12 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>clrsdream</Authors>
-    <PackageProjectUrl>https://github.com/WeTools-my/WeTools.WorkerService.git</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/WeTools-my/WeTools.WorkerService.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/WeTools-my/WeTools.WorkerService-pub.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WeTools-my/WeTools.WorkerService-pub.git</RepositoryUrl>
     <PackageIcon>wetools.png</PackageIcon>
-    <Description>具体参考github库说明。</Description>
-    <Version>1.0.1</Version>
+    <Description>.Net core Worker Service 扩展库，目的为更易控制每一个worker 的运行。
+提供根据配置文件对每一个Worker的停止、启动和自动解析注册Worker。
+具体参考github库说明。</Description>
+    <Version>1.0.2</Version>
     <Company>johohub</Company>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

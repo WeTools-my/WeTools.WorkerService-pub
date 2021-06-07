@@ -470,7 +470,7 @@
           }
         }
       },
-      "WeTools.WorkerService/1.0.1": {
+      "WeTools.WorkerService/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1317,7 +1317,7 @@
         "version.txt"
       ]
     },
-    "WeTools.WorkerService/1.0.1": {
+    "WeTools.WorkerService/1.0.2": {
       "type": "project",
       "path": "../WeTools.WorkerService/WeTools.WorkerService.csproj",
       "msbuildProject": "../WeTools.WorkerService/WeTools.WorkerService.csproj"
@@ -1326,7 +1326,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.Extensions.Hosting >= 5.0.0",
-      "WeTools.WorkerService >= 1.0.1"
+      "WeTools.WorkerService >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -1402,7 +1402,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

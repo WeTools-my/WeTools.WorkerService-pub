@@ -5,7 +5,7 @@
   },
   "projects": {
     "E:\\Git\\Github\\WeTools.WorkerService\\WeTools.WorkerService\\WeTools.WorkerService.csproj": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "E:\\Git\\Github\\WeTools.WorkerService\\WeTools.WorkerService\\WeTools.WorkerService.csproj",
         "projectName": "WeTools.WorkerService",
@@ -96,7 +96,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,13 +13,14 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("johohub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("具体参考github库说明。")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute(".Net core Worker Service 扩展库，目的为更易控制每一个worker 的运行。\r\n提供根据配置文件对每一个Worker的停止、启动和自动解析" +
+    "注册Worker。\r\n具体参考github库说明。")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeTools.WorkerService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeTools.WorkerService")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/WeTools-my/WeTools.WorkerService.git")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/WeTools-my/WeTools.WorkerService-pub.git")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 
